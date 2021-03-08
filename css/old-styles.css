@@ -1,0 +1,226 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+.btext A:visited {
+  text-decoration: none;
+  color: #555;
+}
+.btext A:link {
+  text-decoration: none;
+  color: #555;
+}
+.btext A:link IMG {
+  text-decoration: none;
+}
+.btext A:hover {
+  color: #4372dc;
+}
+.btext {
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  color: #555;
+}
+.blutext A:visited {
+  text-decoration: none;
+  color: #00b;
+}
+.blutext A:link {
+  text-decoration: none;
+  color: #00b;
+}
+.blutext A:link IMG {
+  text-decoration: none;
+}
+.blutext A:hover {
+  color: #4372dc;
+}
+.blutext {
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  color: #5997ff;
+}
+.wtext A:visited {
+  text-decoration: none;
+  color: #b5dfff;
+}
+.wtext A:link {
+  text-decoration: none;
+  color: #b5dfff;
+}
+.wtext A:link IMG {
+  text-decoration: none;
+}
+.wtext A:hover {
+  color: #4372dc;
+}
+.wtext {
+  font-family: "Raleway";
+  font-size: 16px;
+  color: rgba(255, 255, 255, 1);
+}
+.waystyle a:link {
+  color: #ff8600;
+}
+.waystyle a:visited {
+  color: #ff8600;
+}
+.waystyle a:hover {
+  color: #823802;
+}
+.waystyle a:active {
+  color: #ff6;
+}
+.wrapper {
+}
+.topnav {
+  background-color: rgba(255, 130, 68, 0.9);
+  -webkit-transition: height 0.3s;
+  -moz-transition: height 0.3s;
+  transition: height 0.3s;
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+.topnav.shrink {
+  height: 80px;
+}
+.logoleft {
+  float: left;
+  height: 62px;
+}
+.logoright {
+  float: right;
+  height: 20%;
+  margin: auto;
+  vertical-align: middle;
+  display: inline-block;
+}
+.searchcenter {
+  text-align: left;
+  height: 62px;
+  margin: 0 auto !important;
+  display: inline-block;
+  vertical-align: middle;
+}
+#googleMap {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0;
+  bottom: 0;
+  width: 80%;
+  height: 100%;
+}
+.sidenav {
+  height: 100%;
+  width: 20%;
+  position: fixed;
+  z-index: 1000;
+  top: 48px;
+  right: 0;
+  background-color: #fff;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  transition: 0.5s;
+}
+#listView {
+  overflow-y: auto;
+  height: 250px;
+  width: 100%;
+}
+.cell {
+  margin: 5px;
+  background-color: #eee;
+  padding: 8px 8px 8px 20px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+.squre {
+  height: 20px;
+  width: 20px;
+  float: left;
+  top: 20px;
+}
+.detailnav {
+  height: 100%;
+  width: 0%;
+  position: fixed;
+  z-index: 1000;
+  top: 48px;
+  bottom: 50px;
+  right: 0;
+  background-color: #fff;
+  overflow-x: hidden;
+  transition: 0.5s;
+  overflow-y: scroll;
+}
+.detailnav .closebtn {
+  position: absolute;
+  top: 10px;
+  left: 25px;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  margin-left: 10px;
+  color: #000;
+}
+.ctrBtn {
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  color: #555;
+  border: 1px solid #eee;
+  background-color: #eee;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  margin: 8px 2px;
+  cursor: pointer;
+  font-weight: bold;
+  max-width: 250px;
+  width: 80%;
+}
+.ctrBtn:hover {
+  background-color: #999;
+}
+.yearLabel {
+  float: left;
+  width: 100px;
+  margin-right: 10px;
+  text-align: right;
+  margin-bottom: 5px;
+}
+.valueLabel {
+  float: left;
+  width: 10px;
+  text-align: left;
+  color: #538cd5;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+#rcorners2 {
+  border-radius: 25px;
+  border: 2px solid #73ad21;
+  padding: 20px;
+}
+.arrow-up {
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid #000;
+}
+.arrow-down {
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #000;
+}

@@ -1,0 +1,153 @@
+<style type="text/css">
+A:link { text-decoration: none }
+A:visited { text-decoration: none }
+A:hover { color: #ffffff }
+A:active { color: #ffffff }
+A:link IMG { text-decoration: none }
+.btext A:visited { text-decoration: none; color: #000088 }
+.btext A:link { text-decoration: none; color: #000088 }
+.btext A:link IMG { text-decoration: none }
+.btext A:hover {color: #4372dc }
+.btext { font-family:arial; font-size:16px; color:#000000 }
+.blutext A:visited { text-decoration: none; color: #003d7c }
+.blutext A:link { text-decoration: none; color: #003d7c }
+.blutext A:link IMG { text-decoration: none }
+.blutext A:hover {color: #4372dc }
+.blutext { font-family:Verdana, Geneva, sans-serif; font-size:20px; color:#002d66 }
+.wtext A:visited { text-decoration: none; color: #f1efe9 }
+.wtext A:link { text-decoration: none; color: #f1efe9 }
+.wtext A:link IMG { text-decoration: none }
+.wtext A:hover {color: #fff8da }
+.wtext { font-family:tahoma; font-size:14px; color:#ffffff }
+.calctext A:visited { text-decoration: none; color: #000088 }
+.calctext A:link { text-decoration: none; color: #000088 }
+.calctext A:link IMG { text-decoration: none }
+.calctext A:hover {color: #4372dc }
+.calctext { font-family:Quicksand; font-size:16px; color:#000000 }
+
+.slidecontainer {
+    width: 100%; /* Width of the outside container */
+}
+
+/* The slider itself */
+.slider {
+    -webkit-appearance: none;  /* Override default CSS styles */
+    appearance: none;
+    width: 100%; /* Full-width */
+    height: 25px; /* Specified height */
+    border-radius: 12px; 
+    background: #d3d3d3; /* Grey background */
+    outline: none; /* Remove outline */
+    opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+    -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+    transition: opacity .2s;
+    margin: 10px 2px;
+}
+
+/* Mouse-over effects */
+.slider:hover {
+    opacity: 1; /* Fully shown on mouse-over */
+}
+
+/* The slider handle (use webkit (Chrome, Opera, Safari, Edge) and moz (Firefox) to override default look) */ 
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Override default look */
+    appearance: none;
+    width: 25px; /* Set a specific slider handle width */
+    height: 25px; /* Slider handle height */
+    border-radius: 50%; 
+    background: rgb(76, 116, 175); /* Green background */
+    cursor: pointer; /* Cursor on hover */
+}
+
+.slider::-moz-range-thumb {
+    width: 25px; /* Set a specific slider handle width */
+    height: 25px; /* Slider handle height */
+    border-radius: 50%;
+    background: rgb(76, 116, 175); /* Green background */
+    cursor: pointer; /* Cursor on hover */
+}
+
+
+.form-style-2{
+    max-width: 500px;
+    padding: 20px 12px 10px 20px;
+    font: 13px Arial, Helvetica, sans-serif;
+}
+.form-style-2-heading{
+    font-weight: bold;
+    font-style: italic;
+    border-bottom: 2px solid #ddd;
+    margin-bottom: 20px;
+    font-size: 18px;
+    padding-bottom: 3px;
+}
+.form-style-2 label{
+    display: block;
+    margin: 0px 0px 15px 0px;
+}
+.form-style-2 label > span{
+    width: 200px;
+    font-weight: bold;
+    float: left;
+    padding-top: 8px;
+    padding-right: 5px;
+}
+.form-style-2 span.required{
+    color:red;
+}
+.form-style-2 .tel-number-field{
+    width: 40px;
+    text-align: center;
+}
+.form-style-2 input.input-field{
+    width: 28%;
+    
+}
+
+.form-style-2 input.input-field, 
+.form-style-2 .tel-number-field, 
+.form-style-2 .textarea-field, 
+ .form-style-2 .select-field{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border: 1px solid #C2C2C2;
+    box-shadow: 1px 1px 4px #EBEBEB;
+    -moz-box-shadow: 1px 1px 4px #EBEBEB;
+    -webkit-box-shadow: 1px 1px 4px #EBEBEB;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    padding: 7px;
+    outline: none;
+}
+.form-style-2 .input-field:focus, 
+.form-style-2 .tel-number-field:focus, 
+.form-style-2 .textarea-field:focus,  
+.form-style-2 .select-field:focus{
+    border: 1px solid #0C0;
+}
+.form-style-2 .textarea-field{
+    height:100px;
+    width: 55%;
+}
+.form-style-2 input[type=submit],
+.form-style-2 input[type=button]{
+    border: none;
+    padding: 8px 15px 8px 15px;
+    background: #939393;
+    color: #fff;
+    box-shadow: 1px 1px 4px #DADADA;
+    -moz-box-shadow: 1px 1px 4px #DADADA;
+    -webkit-box-shadow: 1px 1px 4px #DADADA;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+}
+.form-style-2 input[type=submit]:hover,
+.form-style-2 input[type=button]:hover{
+    background: #939393;;
+    color: #fff;
+}
+</style>
